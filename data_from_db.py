@@ -2,9 +2,9 @@ import mysql.connector
 import pandas
 import json
 
-db_host = 'tag-rp-prod-db-1.cgdth7hqndrg.us-east-1.rds.amazonaws.com'
+db_host = ''
 
-db_password = '8HHGCeogZ3ovjadekdjG'
+db_password = ''
 
 # Vendor connections
 vendor_conn = mysql.connector.connect(user='admin', password=db_password, host=db_host, port=3306, database='vendors')
